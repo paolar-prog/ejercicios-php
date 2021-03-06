@@ -1,11 +1,11 @@
 <?php
 
-echo "***** TABLAS DE MULTIPLICAR ***** \n";
+echo "<center> ***** TABLAS DE MULTIPLICAR ***** </center> <br>";
 
 for($num=1; $num <= 9; $num++){
-    echo "\n";
+    echo "<br>";
     for ($i = 1; $i <= 10; $i++) {
-    echo  "$num x $i = ".$num*$i."\n";
+    echo  "<center> $num x $i = ".$num*$i." </center>";
         
     }
 }   
