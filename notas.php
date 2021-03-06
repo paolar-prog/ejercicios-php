@@ -17,12 +17,12 @@ $array = [
      
    $j = 0;
  
-    foreach($array as $elemento)
+    foreach($array as $materia => $elemento)
     {
         if($elemento < 3.5){
         echo "\n";
         echo "la nota perdida es ".$elemento;
        }
-       ++$j;
+       
     }
 ?>

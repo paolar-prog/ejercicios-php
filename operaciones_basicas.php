@@ -13,5 +13,5 @@
       
       $div = $num1 / $num2;
       echo "El resultado de la división es   ".$div."\n";
-    }
+    
 ?>
