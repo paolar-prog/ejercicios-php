@@ -13,7 +13,6 @@ $salarioMinimo = 1000000;
 $valor=3.5;
 $sueldoTotal=0;
 
-
 for($i=0; $i<= 4; $i++){
     if($salario[$i]>$salarioMinimo ){
        $sueldoTotal=$salario[$i]-($salario[$i]*$valor/100);
