@@ -1,6 +1,6 @@
 <?php
 
-echo "<h1><center>**** NOMINA PRUEBA S.A ****</center></h1><br>";
+echo "<h1><center>*** NOMINA PRUEBA S.A ***</center></h1><br>";
 
 $salario = [
     2000000,
