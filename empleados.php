@@ -10,17 +10,21 @@ $salario = [
     2500000
 ];
 $salarioMinimo = 1000000;
-$valor=3.5;
+$porcentaje=3.5;
 $sueldoTotal=0;
+$auxilio=120000;
+$numEmpleado=0;
 
 for($i=0; $i<= 4; $i++){
     if($salario[$i]>$salarioMinimo ){
-       $sueldoTotal=$salario[$i]-($salario[$i]*$valor/100);
-       echo "<h4> El Empleado # ".$i. " tiene un salario asignado de: $ ".$sueldoTotal."</h4><br>";
+       $numEmpleado++;
+       $sueldoTotal=$salario[$i]-($salario[$i]*$porcentaje/100);
+       echo "<h4> El Empleado # ".$numEmpleado. " tiene un salario asignado de: $ ".$sueldoTotal."</h4><br>";
     }
     if ($salario[$i]<=$salarioMinimo ) {
-        $sueldoTotal=$salario[$i]+120000;
-        echo "<h4> El Empleado # ".$i. " tiene un salario asignado de: $ ".$sueldoTotal."</h4><br>";
+        $numEmpleado++;
+        $sueldoTotal=$salario[$i]+$auxilio;
+        echo "<h4> El Empleado # ".$numEmpleado. " tiene un salario asignado de: $ ".$sueldoTotal."</h4><br>";
     }
 }
 
