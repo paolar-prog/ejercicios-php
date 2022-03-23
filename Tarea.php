@@ -27,7 +27,7 @@ $num=0;
 
 for($i=0; $i <= 6; $i++){
     $num++;
-    $numAleatorio = rand(1,15);
+    $numAleatorio = rand(1,99);
     echo  "<br>  ".$num." ) ".$insumos[$i]. ".  costo unitario  $".number_format($precios[$i], 0, ",", ".").
     ", Cantidad: ".$numAleatorio.", total: $".number_format($numAleatorio*$precios[$i], 0, ",", ".")."</br>";   
 }   
